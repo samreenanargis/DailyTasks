@@ -17,6 +17,7 @@ public class ListUtils {
 		return (list != null) ? true : false;
 	}
 	
+	
 	/*
 	 * This method accepts LinkedHashSet as argument and checks if it is empty.
 	 * If it is empty, it returns false; else it returns true..
@@ -25,6 +26,7 @@ public class ListUtils {
 		
 		return (!list.isEmpty()) ? true : false;
 	}
+	
 	
 	/*
 	 * This method accepts a List as argument and checks if it is null.
@@ -35,6 +37,7 @@ public class ListUtils {
 		return (list != null) ? true : false;
 	}
 	
+	
 	/*
 	 * This method accepts a List as argument and checks if it is empty.
 	 * If it is empty, it returns false; else it returns true..
@@ -43,6 +46,7 @@ public class ListUtils {
 		
 		return (!list.isEmpty()) ? true : false;
 	}
+	
 	
 	/*
 	 * This method accepts a LinkedHashSet and a List as arguments.
@@ -53,6 +57,7 @@ public class ListUtils {
 		
 		return (keyList.size() != valueList.size()) ? false : true;
 	}
+	
 	
 	/*
 	 * This method accepts a LinkedHashSet and a List as arguments.
@@ -67,7 +72,6 @@ public class ListUtils {
 		if(isListsOfSameSize(keyList, valueList)) {
 			
 			if(isListNotNull(keyList) && isListNotEmpty(keyList) && isListNotNull(valueList) && isListNotEmpty(valueList)) {
-				
 					
 				Iterator linkedHashSet = keyList.iterator();
 					
